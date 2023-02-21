@@ -20,12 +20,6 @@ namespace maytinh
         }
         private void btnNum0_Click(object sender, EventArgs e)
         {
-            if (currentNum == string.Empty)
-            {
-                result += '0';
-                txtResult.Text = result;
-                currentNum = "0";
-            }
         }
         private void btnNum1_Click(object sender, EventArgs e)
         {
