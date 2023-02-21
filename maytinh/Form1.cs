@@ -20,6 +20,7 @@ namespace maytinh
         }
         private void btnNum0_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("ttttttt");
         }
         private void btnNum1_Click(object sender, EventArgs e)
         {
@@ -29,6 +30,7 @@ namespace maytinh
                 txtResult.Text = result;
                 currentNum = "1";
             }
+            MessageBox.Show("dddd");
         }
         private void btnNum2_Click(object sender, EventArgs e)
         {
